@@ -1,12 +1,12 @@
 <?php
 
 //navbar
-require_once "component/nav.php";
+require_once "component/nav.html";
 
 
 //form connexion
 if (empty($_POST['username']) && empty($_POST['password'])){
-    require_once "component/form.php";
+    require_once "component/form.html";
 }
 
 //form remplie
