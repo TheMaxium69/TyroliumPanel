@@ -8,7 +8,7 @@
             </tr>
         <?php 
         $reqMembre = "SELECT * FROM membre";
-        $allMembre = mysqli_query($membreConnectDB, $reqMembre);
+        $allMembre = mysqli_query($ConnectDB, $reqMembre);
         foreach ($allMembre as $membre){ ?>
             <tr>
                 <td><?php echo $membre['name'] ?></td>

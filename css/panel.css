@@ -1,0 +1,58 @@
+td,
+th {
+    border: 1px solid rgb(38, 38, 38);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #110f18;
+}
+
+th[scope="col"] {
+    background-color: #1325d7;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: rgb(13, 32, 109);
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(42, 42, 42);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+.breadcrumb{
+    background: transparent;
+}
+
+.breadcrumb a{
+    color: #6c757d;
+}
+
+#filter div.dropdown .btn{
+    font-size: 10px;
+    width: 10%;
+}
+
+#filter a.btn{
+    font-size: 10px;
+    width: 10%;
+}
+
+#filter a.btn-light{
+    font-size: 10px;
+    color: black;
+}

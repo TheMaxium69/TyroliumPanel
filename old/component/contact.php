@@ -10,7 +10,7 @@
             </tr>
             <?php 
             $reqContact = "SELECT * FROM contact";
-            $allContact = mysqli_query($contactConnectDB, $reqContact);
+            $allContact = mysqli_query($ConnectDB, $reqContact);
             foreach ($allContact as $contact){ ?>
                     <tr>
                         <td><?php echo $firstName = substr($contact['firstName'], 1, -1); ?></td>
