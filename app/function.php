@@ -14,7 +14,7 @@ function form($isWonk = null){
     <div class="container py-5">
         <form method="POST">
             <div class="mb-3">
-                <label for="usernameInput" class="form-label">Nom d'utilisateur</label>
+                <label for="usernameInput" class="form-label">Email</label>
                 <input type="text" class="form-control" id="usernameInput" name="username">
             </div>
             <div class="mb-3">
