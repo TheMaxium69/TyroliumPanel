@@ -56,3 +56,24 @@ table {
     font-size: 10px;
     color: black;
 }
+
+@media (max-width: 991px){
+    .home-desktop {
+        display: none;
+    }
+
+    #filter div.dropdown .btn{
+        width: 100%;
+    }
+
+    #filter a.btn{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 992px){
+    .home-res {
+        display: none;
+    }
+}

@@ -75,7 +75,7 @@
             <th scope="col">Prénom</th>
             <th scope="col">Nom</th>
             <th scope="col">Email</th>
-            <th scope="col">Numéro</th>
+            <th scope="col">Téléphone</th>
             <th scope="col">Text</th>
             <th scope="col">Date</th>
             <th scope="col"></th>
