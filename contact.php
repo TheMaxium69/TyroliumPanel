@@ -44,7 +44,7 @@
                     <a class="dropdown-item" href="?filter=graph">Graphisme</a>
                     <a class="dropdown-item" href="?filter=music">Musicales</a>
                     <a class="dropdown-item" href="?filter=video">Vidéo/Animation</a>
-                    <a class="dropdown-item" href="?filter=autre">Autre</a>
+                    <a class="dropdown-item" href="?filter=autrep">Autre</a>
                 </div>
             </div>
 
@@ -133,7 +133,7 @@
                             } else
 
                             /*PRESTA -> AUTRE*/
-                            if ($_GET['filter'] == "autre"){
+                            if ($_GET['filter'] == "autrep"){
 
                                 if ($OneContact['prestation'] == "*Autre*"){
                                     require "composant/show.php";
